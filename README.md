@@ -10,15 +10,17 @@ This repository contains the backend API for the Library Management System. It i
   - **GET /books/{id}**: Retrieve a single book record by ID.
   - **PUT /books/{id}**: Update a specific book record.
   - **DELETE /books/{id}**: Delete a book record.
-- Input validation for book properties (e.g., title, author, description).
+  - **POST /auth/login**: Login to the system.
+  - **POST /auth/register**: Register new user.
+- Input validation for book funtions and the auth functions.
 - Comprehensive error handling with appropriate HTTP status codes.
-- API documentation with Swagger/OpenAPI.
+- API documentation with Swagger.
 
 ## Technologies Used
 - **Language**: C#
 - **Framework**: .NET Core
 - **Database**: SQLite (using Entity Framework Core)
-- **Tools**: Visual Studio, Postman (for API testing)
+- **Tools**: Visual Studio, Hoppscotch (for API testing)
 
 ## Prerequisites
 - Visual Studio 2019 or later
